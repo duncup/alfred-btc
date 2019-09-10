@@ -1,0 +1,38 @@
+{
+  "name": "alfred-btc",
+  "version": "0.0.0",
+  "description": "Get price of btc",
+  "license": "MIT",
+  "repository": "duncup/alfred-btc",
+  "author": {
+    "name": "duncup",
+    "email": "dlmsoft.wolf@gmail.com",
+    "url": "github.com/duncup"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.9.1"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^2.3.0",
+    "xo": "^0.24.0"
+  }
+}
